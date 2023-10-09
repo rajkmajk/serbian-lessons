@@ -1,0 +1,40 @@
+html, body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: #0C0A3E;
+   }
+   
+   h2 {
+    color: white;
+    background: #0C0A3E;
+    font-size: calc(16px + 5vw);
+    margin-bottom: 10%;
+   }
+   
+   button { 
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    padding: 1% 4%;
+    min-width: 200px;
+    min-height: 50px;
+    background: white;
+    font-size: inherit;
+    font-weight: 600;
+    color: black;
+   }
+   
+   button:hover {
+     color: #00B4D8;
+   }
+   
+   button:active {
+     background: #5047a5;
+   }
